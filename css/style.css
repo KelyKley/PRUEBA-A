@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background: #c0c7d4; /*1f458c*/
+}
+.nav-gnrl{
+    background-color: #293956!important; /*1d3e7cff*/
+    margin-bottom: 1em;
+}
+
+.nav-gnrl .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.fa, .fas {
+    font-size: 4em;
+}
+.cont-btn{
+    background: transparent;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    padding-top: 0.6em;
+    color: aliceblue;
+}
+
+.img-continentes{
+    width: 50%;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
