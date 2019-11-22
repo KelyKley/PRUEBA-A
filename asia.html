@@ -25,7 +25,7 @@
 
 <body>
     <nav class="navbar navbar-expand-sm nav-gnrl">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="https://image.flaticon.com/icons/svg/1321/1321337.svg" alt="Maestro" style="width:40px;">
         </a>
         <ul class="navbar-nav">
@@ -39,24 +39,70 @@
     </nav>
 
     <div class="container text-center">
-            <div class="input-group">
-                <input id="myInput" onkeyup="myFunction()" type="text" class="form-control" placeholder="Paises">
-            </div>
+        <div class="input-group">
+            <input id="myInput" onkeyup="myFunction()" type="text" class="form-control" placeholder="Paises">
+        </div>
 
-            
 
-        <div class="">
-                <ul id="myUL">
-                        <li class=""><a class="" href="#"><h5>asia</h5></a></li>
-                        <li><a href="#">Agnes</a></li>
-                      
-                        <li><a href="#">Billy</a></li>
-                        <li><a href="#">Bob</a></li>
-                      
-                        <li><a href="#">Calvin</a></li>
-                        <li><a href="#">Christina</a></li>
-                        <li><a href="#">Cindy</a></li>
-                      </ul>
+
+        <div id="accordion" class="">
+            <ul id="myUL">
+                <li class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#rusia">
+                            Rusia
+                        </a>
+                    </div>
+                    <div id="rusia" class="collapse    " data-parent="#accordion">
+                        <div class="card-body">
+                            <p><b>Religión principal:</b> Iglesia ortodoxa rusa</p>
+                            <p>La Iglesia Ortodoxa Rusa, liderada por el patriarcado de Moscú, ​ es una Iglesia
+                                cristiana autocéfala integrada en la comunión ortodoxa. Su cabeza es el Patriarca de
+                                Moscú y toda Rusia, ​que a su vez está en comunión con los otros 14 patriarcas y
+                                primados de las otras Iglesias ortodoxas orientales.</p>
+                            <p><b>Fundador:</b> Vladimiro I de Kiev</p>
+                            <p><b>Fundación:</b> 988 d. C., Rus de Kiev</p>
+                            <p><b> Territorio principal:</b> Rusia, Ucrania, Bielorrusia y Kazajistán</p>
+                            <p><b>Primado actual:</b> Patriarca Cirilo</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#kazajistan">
+                            Kazajistán - Kirguistán
+                        </a>
+                    </div>
+                    <div id="kazajistan" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <p><b>Religión principal:</b> Islam </p>
+                            <p>El islam​​ es una religión abrahámica monoteísta basada en el Corán, el cual establece
+                                como premisa fundamental para sus creyentes que «No hay más Dios que Alá y Mahoma es el
+                                último mensajero de Alá»</p>
+                            <p><b>Escrituras sagradas:</b> Corán</p>
+                            <p><b>Deidad o deidades principales:</b> Alá</p>
+                            <p><b> Territorio principal:</b> Rusia, Ucrania, Bielorrusia y Kazajistán</p>
+                            <p><b>País o región de origen:</b> Arabia, Oriente Medio</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#Tayikistán">
+                            Tayikistán
+                        </a>
+                    </div>
+                    <div id="Tayikistán" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <p><b>Religión principal:</b> Sunismo </p>
+                            <p>Los suníes​ ʾAhlu-s-Sunnati wa-l-Jamāʿah son el grupo musulmán mayoritario en la comunidad islámica mundial. Su nombre procede del hecho de que, además del Corán, son devotos de la Sunna, colección de dichos y hechos atribuidos al profeta Mahoma.</p>
+                            <p><b>Fundador(es):</b> Mahoma</p>
+                            <p><b> Seguidores conocidos como:</b> Suníes</p>
+                            <p><b>País o región de origen:</b> Arabia</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
 
         </div>
     </div>
